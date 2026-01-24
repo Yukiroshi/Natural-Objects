@@ -1,0 +1,34 @@
+meta {
+    title: "Natural Objects";
+    icon: "pl2_small.svg";
+    version: "1.1";
+    description: "Improved style for natural objects, adds new icons for niche tags.";
+    author: "Yukiroshi";
+    link: "";
+}
+
+node[denotation=natural_monument] 
+{
+    icon-image: "icons/natural_monument_pl.png";
+    icon-width: 16;
+    z-index: 20; 
+}
+node[ref:gid] 
+{ 
+    font-size: 10;
+    text-color: white;
+    text: "ref:gid";
+    text-offset-x: 0;
+    text-offset-y: 20;
+    z-index: 20;
+}
+node[species]
+{
+    font-size: 12;
+    text-color: white;
+    text: species;
+    text-offset-x: 0;
+    text-offset-y: 0;
+    z-index: 20;
+
+}
