@@ -14,6 +14,17 @@ node[denotation=natural_monument]
     icon-width: 16;
     z-index: 20; 
 }
+
+node[species]
+{
+    font-size: 12;
+    text-color: white;
+    text: species;
+    text-offset-x: 0;
+    text-offset-y: 0;
+    z-index: 20;
+}
+
 node[ref:gid] 
 { 
     font-size: 10;
@@ -23,16 +34,16 @@ node[ref:gid]
     text-offset-y: 20;
     z-index: 20;
 }
-node[species]
+
+node[species][ref:gid]
 {
     font-size: 12;
     text-color: white;
-    text: species;
+    text: eval("concat(tag('species'), ' (', tag('ref:gid'), ')')");
     text-offset-x: 0;
     text-offset-y: 0;
     z-index: 20;
-
-
 }
+
 
 
