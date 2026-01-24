@@ -17,7 +17,7 @@ node[denotation=natural_monument]
 
 node[species]
 {
-    font-size: 12;
+    font-size: 10;
     text-color: white;
     text: species;
     text-offset-x: 0;
@@ -37,14 +37,11 @@ node[ref:gid]
 
 node[species][ref:gid]
 {
-    font-size: 12;
+    font-size: 10;
     text-color: white;
-    text: eval("concat(tag('species'), ' (', tag('ref:gid'), ')')");
+    text: eval(concat(tag("species"), "  ", tag("ref:gid")));
     text-offset-x: 0;
     text-offset-y: 0;
     z-index: 20;
 }
-
-
-
 
