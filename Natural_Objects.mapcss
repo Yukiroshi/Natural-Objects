@@ -1,7 +1,7 @@
 meta {
     title: "Natural Objects";
     description: "(WIP) Improved style for natural objects, adds new icons for niche tags.";
-    icon: "natural_monument_pl.png";
+    icon: "https://raw.githubusercontent.com/Yukiroshi/Natural-Objects/refs/heads/main/natural_monument_pl.png";
     version: "1.1";
     description: "(WIP) Improved style for natural objects, adds new icons for niche tags.";
     author: "Yukiroshi";
@@ -10,7 +10,7 @@ meta {
 
 node[denotation=natural_monument] 
 {
-    icon-image: "icons/natural_monument_pl.png";
+    icon-image: "https://raw.githubusercontent.com/Yukiroshi/Natural-Objects/refs/heads/main/natural_monument_pl.png";
     icon-width: 16;
     z-index: 20; 
 }
@@ -44,6 +44,7 @@ node[species][ref:gid]
     text-offset-y: 0;
     z-index: 20;
 }
+
 
 
 
