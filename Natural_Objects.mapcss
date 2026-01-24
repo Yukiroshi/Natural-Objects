@@ -1,10 +1,11 @@
 meta {
     title: "Natural Objects";
+    description: "(WIP) Improved style for natural objects, adds new icons for niche tags.";
     icon: "pl2_small.svg";
     version: "1.1";
     description: "(WIP) Improved style for natural objects, adds new icons for niche tags.";
     author: "Yukiroshi";
-    link: "";
+    link: "https://github.com/Yukiroshi/Natural-Objects";
 }
 
 node[denotation=natural_monument] 
@@ -33,3 +34,4 @@ node[species]
 
 
 }
+
