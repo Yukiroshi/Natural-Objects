@@ -2,7 +2,7 @@ meta {
     title: "Natural Objects";
     icon: "pl2_small.svg";
     version: "1.1";
-    description: "Improved style for natural objects, adds new icons for niche tags.";
+    description: "(WIP) Improved style for natural objects, adds new icons for niche tags.";
     author: "Yukiroshi";
     link: "";
 }
@@ -30,5 +30,6 @@ node[species]
     text-offset-x: 0;
     text-offset-y: 0;
     z-index: 20;
+
 
 }
