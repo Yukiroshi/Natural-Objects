@@ -3,7 +3,6 @@ meta {
     description: "(WIP) Improved style for natural objects, adds new icons for niche tags.";
     icon: "https://raw.githubusercontent.com/Yukiroshi/Natural-Objects/refs/heads/main/natural_monument_pl.png";
     version: "1.17";
-    description: "(WIP) Improved style for natural objects, adds new icons for niche tags.";
     author: "Yukiroshi";
     link: "https://github.com/Yukiroshi/Natural-Objects";
 }
