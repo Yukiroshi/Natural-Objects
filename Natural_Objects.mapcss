@@ -8,7 +8,7 @@ meta {
     link: "https://github.com/Yukiroshi/Natural-Objects";
 }
 
-node[denotation=natural_monument] 
+node|z10-[denotation=natural_monument] 
 {
     icon-image: "https://raw.githubusercontent.com/Yukiroshi/Natural-Objects/refs/heads/main/natural_monument_pl.png";
     icon-width: 16;
@@ -40,6 +40,7 @@ node|z19-[ref]
     text-anchor-horizontal: center;
     text-offset-y: 45;
 }
+
 
 
 
