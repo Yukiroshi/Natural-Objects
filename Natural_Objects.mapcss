@@ -15,33 +15,32 @@ node[denotation=natural_monument]
     z-index: 20; 
 }
 
-node[species]
+node|z20-[species]
 {
     font-size: 10;
     text-color: white;
     text: species;
-    text-offset-x: 0;
-    text-offset-y: 0;
-    z-index: 20;
+    text-anchor-horizontal: center;
+    text-offset-y: -15;
 }
 
-node[ref:gid] 
+node|z18-[ref:gid]::ref_layer
 { 
     font-size: 10;
     text-color: white;
     text: "ref:gid";
-    text-offset-x: 0;
+    text-anchor-horizontal: center;
     text-offset-y: 20;
-    z-index: 20;
+}
+node|z19-[ref]
+{ 
+    font-size: 9;
+    text-color: white;
+    text: "ref";
+    text-anchor-horizontal: center;
+    text-offset-y: 45;
 }
 
-node[species][ref:gid]
-{
-    font-size: 10;
-    text-color: white;
-    text: eval(concat(tag("species"), "  ", tag("ref:gid")));
-    text-offset-x: 0;
-    text-offset-y: 0;
-    z-index: 20;
-}
+
+
 
